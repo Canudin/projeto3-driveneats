@@ -66,5 +66,7 @@ function total() {
   - Sobremesa: ${dessert}
   Total: R$ ${sum}`;
   const encode = encodeURIComponent(message);
-//  button.onclick = href() {`https://wa.me/1519981652372?text=${encode}`};
+  button = document.querySelector(".request-button");
+  button.onclick = window.open(`https://wa.me/1519981652372?text=${encode}`);
+
 }
