@@ -62,23 +62,23 @@ body {
   box-shadow: 0px 0px 10px -4px #00000040;
 }
 .food-choice2 {
-    width: 172px;
-    height: 216px;
-    background-color: #ffffff;
-    border-radius: 9px;
-    padding: 18px 14px;
-    margin: 0 8px;
-    box-shadow: 0px 0px 10px -4px #00000040;
-  }
-  .food-choice3 {
-    width: 172px;
-    height: 216px;
-    background-color: #ffffff;
-    border-radius: 9px;
-    padding: 18px 14px;
-    margin: 0 8px;
-    box-shadow: 0px 0px 10px -4px #00000040;
-  }
+  width: 172px;
+  height: 216px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 18px 14px;
+  margin: 0 8px;
+  box-shadow: 0px 0px 10px -4px #00000040;
+}
+.food-choice3 {
+  width: 172px;
+  height: 216px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 18px 14px;
+  margin: 0 8px;
+  box-shadow: 0px 0px 10px -4px #00000040;
+}
 .food-title {
   margin-top: 8px;
   font-weight: 700;
@@ -131,26 +131,30 @@ body {
 }
 
 /* Começo da área de edição do js */
-.highlight, .highlight2, .highlight3 {
+.highlight,
+.highlight2,
+.highlight3 {
   border: 5px solid #32b72f;
   padding: 13px 17px;
 }
 
-.highlight div :first-child, .highlight2 div :first-child , .highlight3 div :first-child  {
+.highlight div :first-child,
+.highlight2 div :first-child,
+.highlight3 div :first-child {
   margin: 0 -8px;
 }
 
 .request-button-highlight {
-    background-color: #32b72f;
+  background-color: #32b72f;
 }
 ion-icon {
-    opacity: 0;
-    color: #ffffff;
-    background-color: #32b72f;
-    border-radius: 50px;
-    position: fixed;
-    left: 350px;
-    bottom: 120px;
+  opacity: 0;
+  color: #ffffff;
+  background-color: #32b72f;
+  border-radius: 50px;
+  position: fixed;
+  left: 350px;
+  bottom: 120px;
 }
 /*
   padding: 18px 14px;
