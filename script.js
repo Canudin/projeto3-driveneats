@@ -52,10 +52,12 @@ function total() {
   priceFood = priceFood.replace("R$ ", "");
   priceDrink = priceDrink.replace("R$ ", "");
   priceDessert = priceDessert.replace("R$ ", "");
-  typeof(priceFood);
-  console.log(priceFood);
-  console.log(priceDrink);
-  console.log(priceDessert);
+  priceFood = priceFood.replace(",", ".");
+  priceDrink = priceDrink.replace(",", ".");
+  priceDessert = priceDessert.replace(",", ".");
+  priceFood = Number(priceFood);
+  priceDrink = Number(priceDrink);
+  priceDessert = Number(priceDessert);
   const sum = Number(priceFood)+Number(priceDrink)+Number(priceDessert);
   console.log(sum);
   let message = `Olá, gostaria de fazer o pedido:
@@ -64,6 +66,5 @@ function total() {
   - Sobremesa: ${dessert}
   Total: R$ ${sum}`;
   const encode = encodeURIComponent(message);
-  
-  //https://wa.me/1519981652372?text=urldamensagempronta
+//  button.onclick = href() {`https://wa.me/1519981652372?text=${encode}`};
 }
